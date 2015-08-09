@@ -9,11 +9,25 @@
 /* Begin PBXBuildFile section */
 		6435AC251B7708B0005EAFD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6435AC241B7708B0005EAFD8 /* main.m */; };
 		6435AC281B7708B0005EAFD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6435AC271B7708B0005EAFD8 /* AppDelegate.m */; };
-		6435AC2B1B7708B0005EAFD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6435AC2A1B7708B0005EAFD8 /* ViewController.m */; };
 		6435AC2E1B7708B0005EAFD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6435AC2C1B7708B0005EAFD8 /* Main.storyboard */; };
 		6435AC301B7708B0005EAFD8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6435AC2F1B7708B0005EAFD8 /* Images.xcassets */; };
 		6435AC331B7708B0005EAFD8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6435AC311B7708B0005EAFD8 /* LaunchScreen.xib */; };
 		6435AC3F1B7708B0005EAFD8 /* RSPagesinTabsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6435AC3E1B7708B0005EAFD8 /* RSPagesinTabsTests.m */; };
+		6435AC501B7708FE005EAFD8 /* GGTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6435AC4B1B7708FE005EAFD8 /* GGTabBar.m */; };
+		6435AC511B7708FE005EAFD8 /* GGTabBarAppearanceKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 6435AC4D1B7708FE005EAFD8 /* GGTabBarAppearanceKeys.m */; };
+		6435AC521B7708FE005EAFD8 /* GGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6435AC4F1B7708FE005EAFD8 /* GGTabBarController.m */; };
+		6435AC601B770906005EAFD8 /* TestViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6435AC551B770906005EAFD8 /* TestViewController1.m */; };
+		6435AC611B770906005EAFD8 /* TestViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6435AC561B770906005EAFD8 /* TestViewController1.xib */; };
+		6435AC621B770906005EAFD8 /* TestViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6435AC581B770906005EAFD8 /* TestViewController2.m */; };
+		6435AC631B770906005EAFD8 /* TestViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6435AC591B770906005EAFD8 /* TestViewController2.xib */; };
+		6435AC641B770906005EAFD8 /* TestViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 6435AC5B1B770906005EAFD8 /* TestViewController3.m */; };
+		6435AC651B770906005EAFD8 /* TestViewController3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6435AC5C1B770906005EAFD8 /* TestViewController3.xib */; };
+		6435AC661B770906005EAFD8 /* TestViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 6435AC5E1B770906005EAFD8 /* TestViewController4.m */; };
+		6435AC671B770906005EAFD8 /* TestViewController4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6435AC5F1B770906005EAFD8 /* TestViewController4.xib */; };
+		6435AC6E1B770910005EAFD8 /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6435AC6A1B770910005EAFD8 /* HMSegmentedControl.m */; };
+		6435AC6F1B770910005EAFD8 /* THSegmentedPager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6435AC6C1B770910005EAFD8 /* THSegmentedPager.m */; };
+		6435AC721B77091C005EAFD8 /* SamplePagedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6435AC711B77091C005EAFD8 /* SamplePagedViewController.m */; };
+		6435AC741B770927005EAFD8 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6435AC731B770927005EAFD8 /* iPhone.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +46,39 @@
 		6435AC241B7708B0005EAFD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6435AC261B7708B0005EAFD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6435AC271B7708B0005EAFD8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6435AC291B7708B0005EAFD8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6435AC2A1B7708B0005EAFD8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6435AC2D1B7708B0005EAFD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6435AC2F1B7708B0005EAFD8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6435AC321B7708B0005EAFD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		6435AC381B7708B0005EAFD8 /* RSPagesinTabsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSPagesinTabsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6435AC3D1B7708B0005EAFD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6435AC3E1B7708B0005EAFD8 /* RSPagesinTabsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSPagesinTabsTests.m; sourceTree = "<group>"; };
+		6435AC491B7708FE005EAFD8 /* GGTabBar-Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GGTabBar-Private.h"; sourceTree = "<group>"; };
+		6435AC4A1B7708FE005EAFD8 /* GGTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTabBar.h; sourceTree = "<group>"; };
+		6435AC4B1B7708FE005EAFD8 /* GGTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTabBar.m; sourceTree = "<group>"; };
+		6435AC4C1B7708FE005EAFD8 /* GGTabBarAppearanceKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTabBarAppearanceKeys.h; sourceTree = "<group>"; };
+		6435AC4D1B7708FE005EAFD8 /* GGTabBarAppearanceKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTabBarAppearanceKeys.m; sourceTree = "<group>"; };
+		6435AC4E1B7708FE005EAFD8 /* GGTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTabBarController.h; sourceTree = "<group>"; };
+		6435AC4F1B7708FE005EAFD8 /* GGTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTabBarController.m; sourceTree = "<group>"; };
+		6435AC541B770906005EAFD8 /* TestViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController1.h; sourceTree = "<group>"; };
+		6435AC551B770906005EAFD8 /* TestViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController1.m; sourceTree = "<group>"; };
+		6435AC561B770906005EAFD8 /* TestViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController1.xib; sourceTree = "<group>"; };
+		6435AC571B770906005EAFD8 /* TestViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController2.h; sourceTree = "<group>"; };
+		6435AC581B770906005EAFD8 /* TestViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController2.m; sourceTree = "<group>"; };
+		6435AC591B770906005EAFD8 /* TestViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController2.xib; sourceTree = "<group>"; };
+		6435AC5A1B770906005EAFD8 /* TestViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController3.h; sourceTree = "<group>"; };
+		6435AC5B1B770906005EAFD8 /* TestViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController3.m; sourceTree = "<group>"; };
+		6435AC5C1B770906005EAFD8 /* TestViewController3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController3.xib; sourceTree = "<group>"; };
+		6435AC5D1B770906005EAFD8 /* TestViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController4.h; sourceTree = "<group>"; };
+		6435AC5E1B770906005EAFD8 /* TestViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController4.m; sourceTree = "<group>"; };
+		6435AC5F1B770906005EAFD8 /* TestViewController4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController4.xib; sourceTree = "<group>"; };
+		6435AC691B770910005EAFD8 /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
+		6435AC6A1B770910005EAFD8 /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
+		6435AC6B1B770910005EAFD8 /* THSegmentedPager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THSegmentedPager.h; sourceTree = "<group>"; };
+		6435AC6C1B770910005EAFD8 /* THSegmentedPager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THSegmentedPager.m; sourceTree = "<group>"; };
+		6435AC6D1B770910005EAFD8 /* THSegmentedPageViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THSegmentedPageViewControllerDelegate.h; sourceTree = "<group>"; };
+		6435AC701B77091C005EAFD8 /* SamplePagedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SamplePagedViewController.h; path = ../SamplePagedViewController.h; sourceTree = "<group>"; };
+		6435AC711B77091C005EAFD8 /* SamplePagedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SamplePagedViewController.m; path = ../SamplePagedViewController.m; sourceTree = "<group>"; };
+		6435AC731B770927005EAFD8 /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +102,8 @@
 		6435AC161B7708B0005EAFD8 = {
 			isa = PBXGroup;
 			children = (
+				6435AC481B7708FE005EAFD8 /* GGTabBar */,
+				6435AC681B770910005EAFD8 /* THSegmentedPager */,
 				6435AC211B7708B0005EAFD8 /* RSPagesinTabs */,
 				6435AC3B1B7708B0005EAFD8 /* RSPagesinTabsTests */,
 				6435AC201B7708B0005EAFD8 /* Products */,
@@ -81,13 +122,13 @@
 		6435AC211B7708B0005EAFD8 /* RSPagesinTabs */ = {
 			isa = PBXGroup;
 			children = (
+				6435AC531B770906005EAFD8 /* SampleViewControllers */,
 				6435AC261B7708B0005EAFD8 /* AppDelegate.h */,
 				6435AC271B7708B0005EAFD8 /* AppDelegate.m */,
-				6435AC291B7708B0005EAFD8 /* ViewController.h */,
-				6435AC2A1B7708B0005EAFD8 /* ViewController.m */,
 				6435AC2C1B7708B0005EAFD8 /* Main.storyboard */,
-				6435AC2F1B7708B0005EAFD8 /* Images.xcassets */,
+				6435AC731B770927005EAFD8 /* iPhone.storyboard */,
 				6435AC311B7708B0005EAFD8 /* LaunchScreen.xib */,
+				6435AC2F1B7708B0005EAFD8 /* Images.xcassets */,
 				6435AC221B7708B0005EAFD8 /* Supporting Files */,
 			);
 			path = RSPagesinTabs;
@@ -117,6 +158,54 @@
 				6435AC3D1B7708B0005EAFD8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6435AC481B7708FE005EAFD8 /* GGTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				6435AC491B7708FE005EAFD8 /* GGTabBar-Private.h */,
+				6435AC4A1B7708FE005EAFD8 /* GGTabBar.h */,
+				6435AC4B1B7708FE005EAFD8 /* GGTabBar.m */,
+				6435AC4C1B7708FE005EAFD8 /* GGTabBarAppearanceKeys.h */,
+				6435AC4D1B7708FE005EAFD8 /* GGTabBarAppearanceKeys.m */,
+				6435AC4E1B7708FE005EAFD8 /* GGTabBarController.h */,
+				6435AC4F1B7708FE005EAFD8 /* GGTabBarController.m */,
+			);
+			path = GGTabBar;
+			sourceTree = "<group>";
+		};
+		6435AC531B770906005EAFD8 /* SampleViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6435AC541B770906005EAFD8 /* TestViewController1.h */,
+				6435AC551B770906005EAFD8 /* TestViewController1.m */,
+				6435AC561B770906005EAFD8 /* TestViewController1.xib */,
+				6435AC571B770906005EAFD8 /* TestViewController2.h */,
+				6435AC581B770906005EAFD8 /* TestViewController2.m */,
+				6435AC591B770906005EAFD8 /* TestViewController2.xib */,
+				6435AC5A1B770906005EAFD8 /* TestViewController3.h */,
+				6435AC5B1B770906005EAFD8 /* TestViewController3.m */,
+				6435AC5C1B770906005EAFD8 /* TestViewController3.xib */,
+				6435AC5D1B770906005EAFD8 /* TestViewController4.h */,
+				6435AC5E1B770906005EAFD8 /* TestViewController4.m */,
+				6435AC5F1B770906005EAFD8 /* TestViewController4.xib */,
+				6435AC701B77091C005EAFD8 /* SamplePagedViewController.h */,
+				6435AC711B77091C005EAFD8 /* SamplePagedViewController.m */,
+			);
+			name = SampleViewControllers;
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6435AC681B770910005EAFD8 /* THSegmentedPager */ = {
+			isa = PBXGroup;
+			children = (
+				6435AC691B770910005EAFD8 /* HMSegmentedControl.h */,
+				6435AC6A1B770910005EAFD8 /* HMSegmentedControl.m */,
+				6435AC6B1B770910005EAFD8 /* THSegmentedPager.h */,
+				6435AC6C1B770910005EAFD8 /* THSegmentedPager.m */,
+				6435AC6D1B770910005EAFD8 /* THSegmentedPageViewControllerDelegate.h */,
+			);
+			path = THSegmentedPager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +288,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6435AC631B770906005EAFD8 /* TestViewController2.xib in Resources */,
+				6435AC611B770906005EAFD8 /* TestViewController1.xib in Resources */,
 				6435AC2E1B7708B0005EAFD8 /* Main.storyboard in Resources */,
+				6435AC741B770927005EAFD8 /* iPhone.storyboard in Resources */,
 				6435AC331B7708B0005EAFD8 /* LaunchScreen.xib in Resources */,
+				6435AC671B770906005EAFD8 /* TestViewController4.xib in Resources */,
+				6435AC651B770906005EAFD8 /* TestViewController3.xib in Resources */,
 				6435AC301B7708B0005EAFD8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +313,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6435AC2B1B7708B0005EAFD8 /* ViewController.m in Sources */,
+				6435AC6F1B770910005EAFD8 /* THSegmentedPager.m in Sources */,
+				6435AC621B770906005EAFD8 /* TestViewController2.m in Sources */,
 				6435AC281B7708B0005EAFD8 /* AppDelegate.m in Sources */,
+				6435AC721B77091C005EAFD8 /* SamplePagedViewController.m in Sources */,
 				6435AC251B7708B0005EAFD8 /* main.m in Sources */,
+				6435AC641B770906005EAFD8 /* TestViewController3.m in Sources */,
+				6435AC661B770906005EAFD8 /* TestViewController4.m in Sources */,
+				6435AC501B7708FE005EAFD8 /* GGTabBar.m in Sources */,
+				6435AC6E1B770910005EAFD8 /* HMSegmentedControl.m in Sources */,
+				6435AC511B7708FE005EAFD8 /* GGTabBarAppearanceKeys.m in Sources */,
+				6435AC601B770906005EAFD8 /* TestViewController1.m in Sources */,
+				6435AC521B7708FE005EAFD8 /* GGTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +521,7 @@
 				6435AC441B7708B0005EAFD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6435AC451B7708B0005EAFD8 /* Build configuration list for PBXNativeTarget "RSPagesinTabsTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +530,7 @@
 				6435AC471B7708B0005EAFD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

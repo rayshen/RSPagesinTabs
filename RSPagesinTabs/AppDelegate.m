@@ -7,6 +7,14 @@
 //
 
 #import "AppDelegate.h"
+#import "AppDelegate.h"
+#import "THSegmentedPager.h"
+#import "SamplePagedViewController.h"
+#import "GGTabBarController.h"
+#import "TestViewController1.h"
+#import "TestViewController2.h"
+#import "TestViewController3.h"
+#import "TestViewController4.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +24,61 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    
+    //创建GGTabbar
+    GGTabBarController *tabBar = [[GGTabBarController alloc] init];
+    
+    //创建第一个Tab：pager 内部的pages
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"iPhone" bundle:[NSBundle mainBundle]];
+    THSegmentedPager *pager = [storyboard instantiateViewControllerWithIdentifier:@"THSegmentedPager"];
+    NSMutableArray *pages = [NSMutableArray new];
+    for (int i = 1; i < 4; i++) {
+        // Create a new view controller and pass suitable data.
+        SamplePagedViewController *pagedViewController = [pager.storyboard instantiateViewControllerWithIdentifier:@"SamplePagedViewController"];
+        [pagedViewController setViewTitle:[NSString stringWithFormat:@"Page %d",i]];
+        [pagedViewController.view setBackgroundColor:[UIColor clearColor]];
+        [pages addObject:pagedViewController];
+    }
+    [pager setPages:pages];
+    
+    //创建第二个Tab：pager2 内部的pages
+    THSegmentedPager *pager2 = [storyboard instantiateViewControllerWithIdentifier:@"THSegmentedPager"];
+    NSMutableArray *pages2 = [NSMutableArray new];
+    for (int i = 1; i < 4; i++) {
+        // Create a new view controller and pass suitable data.
+        SamplePagedViewController *pagedViewController = [pager.storyboard instantiateViewControllerWithIdentifier:@"SamplePagedViewController"];
+        [pagedViewController setViewTitle:[NSString stringWithFormat:@"Page %d",i]];
+        [pagedViewController.view setBackgroundColor:[UIColor clearColor]];
+        [pages2 addObject:pagedViewController];
+    }
+    [pager2 setPages:pages2];
+    
+    //创建其他Tab内的ViewController，并部分带navi
+    TestViewController1 *vc1 = [[TestViewController1 alloc] init];
+    TestViewController2 *vc2 = [[TestViewController2 alloc] init];
+    TestViewController3 *vc3 = [[TestViewController3 alloc] init];
+    TestViewController4 *vc4 = [[TestViewController4 alloc] init];
+    UINavigationController *navi2=[[UINavigationController alloc]initWithRootViewController:pager2];
+    UINavigationController *navi3=[[UINavigationController alloc]initWithRootViewController:vc3];
+    UINavigationController *navi4=[[UINavigationController alloc]initWithRootViewController:vc4];
+    //配置title，设置icon
+    pager2.title=@"VC2";
+    vc3.title=@"VC3";
+    vc4.title=@"VC4";
+    pager.tabBarItem = [[UITabBarItem alloc] initWithTitle:nil
+                                                     image:[UIImage imageNamed:@"user_normal"]
+                                             selectedImage:[UIImage imageNamed:@"user_pressed"]];
+    pager2.tabBarItem = [[UITabBarItem alloc] initWithTitle:nil
+                                                      image:[UIImage imageNamed:@"global_normal"]
+                                              selectedImage:[UIImage imageNamed:@"global_pressed"]];
+    
+    //组建tabbar
+    tabBar.viewControllers = @[pager, navi2, navi3, navi4];
+    self.window.rootViewController = tabBar;
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
